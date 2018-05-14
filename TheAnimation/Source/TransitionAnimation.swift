@@ -8,7 +8,7 @@
 
 import CoreGraphics
 
-public final class TransitionAnimation: Animation {
+public class TransitionAnimation: Animation {
     public var animation: CAAnimation {
         return _animation
     }

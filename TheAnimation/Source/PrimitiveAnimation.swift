@@ -8,7 +8,7 @@
 
 import CoreGraphics
 
-public final class PrimitiveAnimation<RawAnimation: CAPropertyAnimation, ValueType: AnimationValueType>: Animation {
+public class PrimitiveAnimation<RawAnimation: CAPropertyAnimation, ValueType: AnimationValueType>: Animation {
     public var animation: CAAnimation {
         return _animation
     }

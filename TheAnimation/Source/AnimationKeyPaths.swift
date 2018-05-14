@@ -14,7 +14,7 @@ open class AnimationKeyPaths {
 
 public protocol AnimationValueType {}
 
-public final class AnimationKeyPath<ValueType: AnimationValueType>: AnimationKeyPaths {
+public class AnimationKeyPath<ValueType: AnimationValueType>: AnimationKeyPaths {
     let rawValue: String
 
     public init(keyPath: String) {
